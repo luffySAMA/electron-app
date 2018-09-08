@@ -1,11 +1,11 @@
 {
-  "name": "blog",
-  "productName": "luffySAMA's Blog",
-  "description": "luffySAMA's Blog",
+  "name": "electron-app",
+  "productName": "electron-app",
+  "description": "electron-app",
   "version": "1.0.0",
   "private": true,
   "author": "luffySAMA",
-  "homepage": "https://luffysama.github.io",
+  "homepage": "https://github.com/luffySAMA/electron-app",
   "main": "app/background.js",
   "build": {
     "appId": "luffysama.github.io",
@@ -34,6 +34,12 @@
           ]
         }
       ]
+    },
+    "publish": {
+      "provider": "github",
+      "repo": "electron-app",
+      "owner": "luffySAMA",
+      "releaseType": "release"
     }
   },
   "scripts": {
